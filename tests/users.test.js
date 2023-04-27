@@ -1,5 +1,6 @@
 const request = require('supertest');
 const app = require('../app');
+const { URL, TOKEN } = require('../global_keys/keys');
 
 require('dotenv').config();
 
