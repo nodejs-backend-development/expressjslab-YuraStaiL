@@ -8,7 +8,7 @@ jest.mock('../clients/httpClient');
 
 const todo1 = {
     id: 1,
-    user_id: 2,
+    user_id: 888,
     title: 'wash plate',
     due_on: null,
     status: 'pending',
